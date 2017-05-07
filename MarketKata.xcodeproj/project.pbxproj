@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60F1B0A229057379A2ECAFEE /* Pods_MarketKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40976390ADFD4448C4D2D0A0 /* Pods_MarketKata.framework */; };
+		7702E3F78D418CB373AD176B /* Pods_MarketKataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C53EC56F37B662E33B2B09 /* Pods_MarketKataTests.framework */; };
 		8FEEFEE71EBF6BB000321208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEFEE61EBF6BB000321208 /* AppDelegate.swift */; };
 		8FEEFEE91EBF6BB000321208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEFEE81EBF6BB000321208 /* ViewController.swift */; };
 		8FEEFEEC1EBF6BB000321208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEEFEEA1EBF6BB000321208 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		8FEEFEF11EBF6BB000321208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEEFEEF1EBF6BB000321208 /* LaunchScreen.storyboard */; };
 		8FEEFEFC1EBF6BB000321208 /* MarketKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEFEFB1EBF6BB000321208 /* MarketKataTests.swift */; };
 		8FEEFF071EBF6BB000321208 /* MarketKataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEFF061EBF6BB000321208 /* MarketKataUITests.swift */; };
+		8FEEFF151EBF727300321208 /* KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEFF141EBF727300321208 /* KataTests.swift */; };
+		FA8962838129FDE409260F0E /* Pods_MarketKataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177704953A08EEE8B7F9E7F9 /* Pods_MarketKataUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		177704953A08EEE8B7F9E7F9 /* Pods_MarketKataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketKataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3174A9A7095CAE62EDD251A2 /* Pods-MarketKataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKataTests/Pods-MarketKataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40976390ADFD4448C4D2D0A0 /* Pods_MarketKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C53EC56F37B662E33B2B09 /* Pods_MarketKataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarketKataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6219210995EAB14F7392FF47 /* Pods-MarketKataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKataTests/Pods-MarketKataTests.release.xcconfig"; sourceTree = "<group>"; };
 		8FEEFEE31EBF6BB000321208 /* MarketKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEEFEE61EBF6BB000321208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FEEFEE81EBF6BB000321208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		8FEEFF021EBF6BB000321208 /* MarketKataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketKataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEEFF061EBF6BB000321208 /* MarketKataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketKataUITests.swift; sourceTree = "<group>"; };
 		8FEEFF081EBF6BB000321208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEEFF141EBF727300321208 /* KataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KataTests.swift; sourceTree = "<group>"; };
+		BCE97BB801577A4613D20D91 /* Pods-MarketKataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKataUITests/Pods-MarketKataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2ECE4AA2AF6F88FF5F1D476 /* Pods-MarketKata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKata.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKata/Pods-MarketKata.release.xcconfig"; sourceTree = "<group>"; };
+		EB4DDF0442DA54D67F4FA23C /* Pods-MarketKataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKataUITests/Pods-MarketKataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4FEAE6742DAE699C9F9B877 /* Pods-MarketKata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketKata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketKata/Pods-MarketKata.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F1B0A229057379A2ECAFEE /* Pods_MarketKata.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7702E3F78D418CB373AD176B /* Pods_MarketKataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8962838129FDE409260F0E /* Pods_MarketKataUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				8FEEFEFA1EBF6BB000321208 /* MarketKataTests */,
 				8FEEFF051EBF6BB000321208 /* MarketKataUITests */,
 				8FEEFEE41EBF6BB000321208 /* Products */,
+				DE619B35E4947A1352C8B82F /* Pods */,
+				94DA9F67DA2A02FAF5CCF3EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +131,7 @@
 			children = (
 				8FEEFEFB1EBF6BB000321208 /* MarketKataTests.swift */,
 				8FEEFEFD1EBF6BB000321208 /* Info.plist */,
+				8FEEFF141EBF727300321208 /* KataTests.swift */,
 			);
 			path = MarketKataTests;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = MarketKataUITests;
 			sourceTree = "<group>";
 		};
+		94DA9F67DA2A02FAF5CCF3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40976390ADFD4448C4D2D0A0 /* Pods_MarketKata.framework */,
+				55C53EC56F37B662E33B2B09 /* Pods_MarketKataTests.framework */,
+				177704953A08EEE8B7F9E7F9 /* Pods_MarketKataUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE619B35E4947A1352C8B82F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEAE6742DAE699C9F9B877 /* Pods-MarketKata.debug.xcconfig */,
+				C2ECE4AA2AF6F88FF5F1D476 /* Pods-MarketKata.release.xcconfig */,
+				3174A9A7095CAE62EDD251A2 /* Pods-MarketKataTests.debug.xcconfig */,
+				6219210995EAB14F7392FF47 /* Pods-MarketKataTests.release.xcconfig */,
+				EB4DDF0442DA54D67F4FA23C /* Pods-MarketKataUITests.debug.xcconfig */,
+				BCE97BB801577A4613D20D91 /* Pods-MarketKataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FEEFF0B1EBF6BB000321208 /* Build configuration list for PBXNativeTarget "MarketKata" */;
 			buildPhases = (
+				740F215D10A5FFD009ECD0A0 /* [CP] Check Pods Manifest.lock */,
 				8FEEFEDF1EBF6BB000321208 /* Sources */,
 				8FEEFEE01EBF6BB000321208 /* Frameworks */,
 				8FEEFEE11EBF6BB000321208 /* Resources */,
+				21A8721A81EF07EE27920507 /* [CP] Embed Pods Frameworks */,
+				103B99A8C015F0B2F0A483B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FEEFF0E1EBF6BB000321208 /* Build configuration list for PBXNativeTarget "MarketKataTests" */;
 			buildPhases = (
+				EA343B5144BC6CEB756C78D3 /* [CP] Check Pods Manifest.lock */,
 				8FEEFEF31EBF6BB000321208 /* Sources */,
 				8FEEFEF41EBF6BB000321208 /* Frameworks */,
 				8FEEFEF51EBF6BB000321208 /* Resources */,
+				DF71DE2B36D417D9209B0E1C /* [CP] Embed Pods Frameworks */,
+				BEAB987A9BBF2529EAF6A2F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FEEFF111EBF6BB000321208 /* Build configuration list for PBXNativeTarget "MarketKataUITests" */;
 			buildPhases = (
+				4367E8D1FC5AD107AA48FAB1 /* [CP] Check Pods Manifest.lock */,
 				8FEEFEFE1EBF6BB000321208 /* Sources */,
 				8FEEFEFF1EBF6BB000321208 /* Frameworks */,
 				8FEEFF001EBF6BB000321208 /* Resources */,
+				8447FCE0BD325EAD9E33FCDE /* [CP] Embed Pods Frameworks */,
+				C6C26D004C1B88C7A08B98C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +309,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		103B99A8C015F0B2F0A483B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKata/Pods-MarketKata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21A8721A81EF07EE27920507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKata/Pods-MarketKata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4367E8D1FC5AD107AA48FAB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		740F215D10A5FFD009ECD0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8447FCE0BD325EAD9E33FCDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKataUITests/Pods-MarketKataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAB987A9BBF2529EAF6A2F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKataTests/Pods-MarketKataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C26D004C1B88C7A08B98C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKataUITests/Pods-MarketKataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF71DE2B36D417D9209B0E1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketKataTests/Pods-MarketKataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA343B5144BC6CEB756C78D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FEEFEDF1EBF6BB000321208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEEFF151EBF727300321208 /* KataTests.swift in Sources */,
 				8FEEFEFC1EBF6BB000321208 /* MarketKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +602,7 @@
 		};
 		8FEEFF0C1EBF6BB000321208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FEAE6742DAE699C9F9B877 /* Pods-MarketKata.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y3HQTHU3DE;
@@ -424,6 +616,7 @@
 		};
 		8FEEFF0D1EBF6BB000321208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2ECE4AA2AF6F88FF5F1D476 /* Pods-MarketKata.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y3HQTHU3DE;
@@ -437,6 +630,7 @@
 		};
 		8FEEFF0F1EBF6BB000321208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3174A9A7095CAE62EDD251A2 /* Pods-MarketKataTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +646,7 @@
 		};
 		8FEEFF101EBF6BB000321208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6219210995EAB14F7392FF47 /* Pods-MarketKataTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +662,7 @@
 		};
 		8FEEFF121EBF6BB000321208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4DDF0442DA54D67F4FA23C /* Pods-MarketKataUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y3HQTHU3DE;
@@ -481,6 +677,7 @@
 		};
 		8FEEFF131EBF6BB000321208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE97BB801577A4613D20D91 /* Pods-MarketKataUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y3HQTHU3DE;
@@ -512,6 +709,7 @@
 				8FEEFF0D1EBF6BB000321208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FEEFF0E1EBF6BB000321208 /* Build configuration list for PBXNativeTarget "MarketKataTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +718,7 @@
 				8FEEFF101EBF6BB000321208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FEEFF111EBF6BB000321208 /* Build configuration list for PBXNativeTarget "MarketKataUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +727,7 @@
 				8FEEFF131EBF6BB000321208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
