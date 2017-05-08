@@ -25,11 +25,21 @@ import Foundation
 import Quick
 import Nimble
 
+protocol RegisterObserver {
+    func totalCalculated(totalInDollars: Int)
+}
+
+class RegisterObserverSpy: RegisterObserver {
+    func totalCalculated(totalInDollars: Int) {
+
+    }
+}
+
 class KataTest: QuickSpec {
     override func spec() {
-        
         fdescribe("shopping cart") {
-            let register = Register()
+            let observer = RegisterObserverSpy()
+            let register = Register(observer: observer)
 
             it("it calculates the cost of a Banana") {
                 expect(register.total(input: "A")).to(equal(50))
@@ -63,7 +73,11 @@ class KataTest: QuickSpec {
 }
 
 class Register {
-    
+
+    init(observer: RegisterObserver) {
+
+    }
+
     func scan(input:[String]) -> Int {
         let price = 0
         var newPrice = 0
@@ -92,7 +106,7 @@ class Register {
         return newPrice
     }
    
-    func total(input:String...) -> Int {
+    func total(input:String...) {
         let newPrice = scan(input: input)
         return newPrice
     }
